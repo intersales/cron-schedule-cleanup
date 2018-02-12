@@ -4,7 +4,9 @@ Cleanup the Magento2 cron_schedule Table
 
 In Backend under System -> Configuration -> interSales Modules -> Cron Schedule Cleanup
 
-Enable and set time in hours for delete old entries. ( Default: 24 )
+Options:
+- Activate
+- Time set in h, after entries in the cron_schedule will deleted ( Default: 24 )
 
 Every 6 hours the cron job runs.
 
