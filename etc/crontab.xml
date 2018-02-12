@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="cronjob_schedule_cleanup" instance="InterSales\CronScheduleCleanup\Cron\ScheduleCleanup" method="execute">
+            <schedule>07 */6 * * *</schedule>
+        </job>
+    </group>
+</config>

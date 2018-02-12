@@ -1,0 +1,15 @@
+{
+  "name": "magento2-modules/cron-schedule-cleanup",
+  "description": "Module for cleanup table cron_schedule",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "InterSales\\CronScheduleCleanup\\": ""
+    }
+  }
+}
+
