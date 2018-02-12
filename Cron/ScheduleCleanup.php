@@ -61,7 +61,7 @@ class ScheduleCleanup
 
             $cronSchedules = $this->schedule->getResourceCollection()
                 ->addFieldToSelect('*')
-                ->addFieldToFilter('executed_at', [ 'lt' => $dateCleanup]);
+                ->addFieldToFilter('scheduled_at', [ 'lt' => $dateCleanup]);
 
             //$this->logger->info('ScheduleCleanup - SQL: ' . $cronSchedules->getSelectSql());
             $totalCronSchedules = count($cronSchedules);
