@@ -6,9 +6,9 @@ In Backend under System -> Configuration -> interSales Modules -> Cron Schedule 
 
 Options:
 - Activate
-- Time set in h, after entries in the cron_schedule will deleted ( Default: 24 )
+- Interval (hours) after which entries in the cron_schedule will be deleted ( Default: 24 )
 
-Every 6 hours the cron job runs.
+The cron job runs every 6 hours.
 
 
 Requirements
