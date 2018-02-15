@@ -63,4 +63,4 @@ InterSales Team
 
 Copyright
 ---------
-(c) 2018 interSales Team
+(c) 2018 interSales AG Internet Commerce, Köln
