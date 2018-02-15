@@ -10,6 +10,10 @@ Options:
 
 The cron job runs every 6 hours.
 
+Background
+----------
+Magento 2.2.x can, due to a bug, have performance issues when the cron_schedule table contains many entries. This module helps to work around that problem and at the same time keep this table lean and clean automatically.
+More on this issue: https://www.splendid-internet.de/blog/cronjob-bug-in-magento-2-2-x-fuehrt-zu-hoher-cpu-auslastung/
 
 Requirements
 ------------
